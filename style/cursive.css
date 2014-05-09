@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'HVDComicSerifProRegular';
+  src: url('../fonts/hvd_comic_serif_pro-webfont.eot');
+  src: url('../fonts/hvd_comic_serif_pro-webfont.woff') format('woff'), url('../fonts/hvd_comic_serif_pro-webfont.ttf') format('truetype'), url('../fonts/hvd_comic_serif_pro-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.subtitle {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+body #language {
+  float: right;
+  padding-right: 10px;
+  text-align: center;
+}
+body #language img {
+  width: 32px;
+  height: 32px;
+}
+body a:hover {
+  text-decoration: none;
+}
+body .custom-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  body .custom-container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+body .justify {
+  text-indent: 30px;
+  text-align: justify;
+}
+body h2 {
+  margin-top: 0px;
+}
+body h3 {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+body .modal-dialog {
+  width: 808px;
+}
+body #title-container {
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+body #title-container #first-row {
+  text-align: center;
+}
+body #title-container #first-row #subtitle {
+  text-align: center;
+  font-size: 30px;
+}
+body #title-container #first-row #app-name {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  font-size: 45px;
+  color: #df5621;
+}
+body #title-container #first-row #app-icon {
+  width: 192px;
+  height: 192px;
+}
+body #title-container #first-row #appstore-badges {
+  margin-top: 25px;
+}
+body #title-container #first-row #appstore-badges img {
+  height: 45px;
+}
+body #navbar-container {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+body #navbar-container ul {
+  margin-top: 10px;
+  list-style-type: none;
+}
+body #navbar-container ul li {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  display: inline;
+  font-size: 20px;
+  padding-left: 20px;
+}
+body #video-container {
+  background-color: #88c2e3;
+  color: #f8f8f8;
+  font-size: 20px;
+}
+body #video-container .attaque {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+body #video-container #youtube {
+  min-height: 315px;
+}
+body #screenshot-container {
+  background-color: #66ba7e;
+  font-size: 20px;
+  color: #f8f8f8;
+}
+body #screenshot-container h2 {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+body #screenshot-container #screenshots {
+  text-align: center;
+}
+body #screenshot-container .carousel {
+  width: 360px;
+  height: 480px;
+}
+body #screenshot-container .carousel-control {
+  background-image: none;
+}
+body #pedagogie-container {
+  background-color: #e74c3c;
+  font-size: 20px;
+  color: #f8f8f8;
+}
+body #pedagogie-container h2 {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+body #pedagogie-container .addition {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+}
+body #pedagogie-container .addition img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  body #pedagogie-container .addition {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body #pedagogie-container .addition img {
+    margin-left: 3px;
+    margin-right: 3px;
+    max-width: 50px;
+    max-height: 80px;
+  }
+}
+body #pedagogie-container li {
+  margin-bottom: 10px;
+}
+body #cahier-container {
+  background-color: #b49f71;
+  font-size: 20px;
+  color: #f8f8f8;
+}
+body #cahier-container h2 {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+}
+body #cahier-container img {
+  width: 360px;
+}
+body #contact-container {
+  background-color: #eee8da;
+  text-align: center;
+  color: #005866;
+  font-size: 20px;
+}
+body #contact-container a {
+  font-size: 30px;
+}
+body #footer-container {
+  background-color: #f8f8f8;
+  color: #005866;
+  text-align: center;
+  padding-bottom: 0;
+  font-size: 16px;
+}
+body #footer-container ul li {
+  list-style-type: none;
+}
+body #footer-container img {
+  margin-top: 10px;
+}
