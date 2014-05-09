@@ -1,0 +1,221 @@
+@red: #E74C3C;
+@orange: #DF5621;
+@slate: #005866;
+@pale-grey: #F8F8F8;
+@blue: #88C2E3;
+@white:#FFFFFF;
+@green:#66BA7E;
+@beige:#EEE8DA;
+@brown:#B49F71;
+@container_margin: 30px;
+
+@font-face {
+	font-family: 'HVDComicSerifProRegular';
+	src: url('../fonts/hvd_comic_serif_pro-webfont.eot');
+	src: url('../fonts/hvd_comic_serif_pro-webfont.woff') format('woff'),
+       url('../fonts/hvd_comic_serif_pro-webfont.ttf') format('truetype'),
+       url('../fonts/hvd_comic_serif_pro-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.subtitle {
+	font-family: 'HVDComicSerifProRegular', sans-serif;
+	color:@pale-grey;
+	margin-bottom:20px;
+}
+
+body {
+
+	#language {
+		float:right;
+		padding-right:10px;
+		text-align:center;
+		img {
+			width: 32px;
+			height: 32px;
+		}
+	}
+
+	a:hover {
+		text-decoration:none;
+	}
+
+  .custom-container {
+		@media screen and (min-width: 768px) {
+			padding-left:135 + 15px;
+			padding-right:135 + 15px;
+		}
+		padding-top: @container_margin;
+		padding-bottom: @container_margin;
+  }
+
+	.justify {
+		text-indent:30px;
+		text-align:justify;
+	}
+
+	h2 {
+		margin-top:0px;
+	}
+
+	h3 {
+		.subtitle
+	}
+
+	.modal-dialog {
+		width: 768 + 20 * 2px;
+	}
+
+  #title-container {
+    background-color:@white;
+		padding-bottom:10px;
+
+    #first-row {
+      text-align:center;
+
+      #subtitle {
+        text-align:center;
+        font-size: 30px;
+      }
+      #app-name {
+        font-family: 'HVDComicSerifProRegular', sans-serif;
+        font-size: 45px;
+        color:@orange;
+      }
+      #app-icon {
+        width: 192px;
+        height: 192px;
+      }
+      #appstore-badges {
+        margin-top:25px;
+        img {
+          height: 45px;
+        }
+      }
+    }
+  }
+
+#navbar-container {
+  background-color:@pale-grey;
+  text-align:center;
+	padding-bottom:0px;
+	padding-top:0px;
+  ul {
+    margin-top:10px;
+    list-style-type: none;
+    li {
+			font-family:'HVDComicSerifProRegular', sans-serif;
+      display: inline;
+      font-size: 20px;
+      padding-left:20px;
+    }
+  }
+}
+
+#video-container {
+  background-color:@blue;
+  color:@pale-grey;
+  font-size: 20px;
+  .attaque {
+		font-family: 'HVDComicSerifProRegular', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+	#youtube {
+		min-height:315px;
+	}
+}
+
+#screenshot-container {
+	h2 {
+		.subtitle
+	}
+
+  background-color:@green;
+	font-size: 20px;
+	color:@pale-grey;
+	#screenshots {
+		text-align:center;
+	}
+	.carousel {
+		width: 360px;
+		height:480px;
+	}
+	.carousel-control {
+		background-image:none;
+	}
+}
+
+#pedagogie-container {
+	h2 {
+		.subtitle
+	}
+	background-color:@red;
+	font-size: 20px;
+	color:@pale-grey;
+	.addition {
+		margin-top:20px;
+		margin-bottom:40px;
+		text-align:center;
+		font-size:40px;
+		font-family:'HVDComicSerifProRegular', sans-serif;
+		img {
+			margin-left:10px;
+			margin-right:10px;
+		}
+		@media screen and (max-width: 768px) {
+			padding-left:0px;
+			padding-right:0px;
+			img {
+				margin-left:3px;
+				margin-right:3px;
+				max-width:50px;
+				max-height:80px;
+			}
+		}
+	}
+	li  {
+		margin-bottom:10px;
+	}
+}
+
+#cahier-container {
+	h2 {
+		.subtitle
+	}
+	background-color:@brown;
+	font-size: 20px;
+	color:@pale-grey;
+	img {
+		width:360px;
+	}
+}
+
+#contact-container {
+	background-color:@beige;
+	text-align:center;
+	color:@slate;
+	font-size:20px;
+	a {
+		font-size:30px;
+	}
+}
+
+#footer-container {
+	background-color:@pale-grey;
+	color:@slate;
+	text-align:center;
+	padding-bottom:0;
+	font-size:16px;
+	ul{
+		li {
+			list-style-type: none;
+		}
+	}
+	img {
+		margin-top:10px;
+	}
+}
+
+}
