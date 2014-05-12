@@ -99,8 +99,33 @@ body #video-container .attaque {
   font-size: 24px;
   font-weight: bold;
 }
-body #video-container #youtube {
-  min-height: 315px;
+body #video-container .videowrapper {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+body #video-container .videowrapper.widescreen {
+  padding-bottom: 57.25%;
+}
+body #video-container .videowrapper.vimeo {
+  padding-top: 0;
+}
+body #video-container .videowrapper iframe,
+body #video-container .videowrapper object,
+body #video-container .videowrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  body #video-container .videoWrapper {
+    padding-top: 0;
+  }
 }
 body #screenshot-container {
   background-color: #66ba7e;
@@ -111,6 +136,12 @@ body #screenshot-container h2 {
   font-family: 'HVDComicSerifProRegular', sans-serif;
   color: #f8f8f8;
   margin-bottom: 20px;
+}
+body #screenshot-container .thumbnail {
+  background-color: #e9e7eb;
+}
+body #screenshot-container .thumbnail img {
+  height: 300px;
 }
 body #screenshot-container #screenshots {
   text-align: center;
