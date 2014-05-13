@@ -22,7 +22,7 @@
 
 .subtitle {
 	font-family: 'HVDComicSerifProRegular', sans-serif;
-	color:@pale-grey;
+	color: @pale-grey;
 	margin-bottom:20px;
 }
 
@@ -69,27 +69,27 @@ body {
 	}
 
   #title-container {
-    background-color:@white;
-		padding-bottom:10px;
+    background-color: @white;
+		padding-bottom: 10px;
 
     #first-row {
-      text-align:center;
+      text-align: center;
 
       #subtitle {
-        text-align:center;
+        text-align: center;
         font-size: 30px;
       }
       #app-name {
         font-family: 'HVDComicSerifProRegular', sans-serif;
         font-size: 45px;
-        color:@orange;
+        color: @orange;
       }
       #app-icon {
         width: 192px;
         height: 192px;
       }
       #appstore-badges {
-        margin-top:25px;
+        margin-top: 25px;
         img {
           height: 45px;
         }
@@ -132,21 +132,29 @@ body {
 		overflow: hidden;
 	}
 
-.videowrapper.widescreen { padding-bottom: 57.25%; }
-.videowrapper.vimeo { padding-top: 0; }
+	.videowrapper.widescreen {
+			padding-bottom: 57.25%;
+	}
+	.videowrapper.vimeo {
+			padding-top: 0;
+	}
 
-.videowrapper iframe,
-.videowrapper object,
-.videowrapper embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
-.videoWrapper { padding-top: 0; }
-}
+	.videowrapper iframe,
+	.videowrapper object,
+	.videowrapper embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	@media only screen and (max-device-width: 800px),
+				 only screen and (device-width: 1024px) and (device-height: 600px)
+				 only screen and (width: 1280px) and (orientation: landscape),
+				 only screen and (device-width: 800px),
+				 only screen and (max-width: 767px) {
+		.videoWrapper { padding-top: 0; }
+	}
 }
 
 #screenshot-container {
@@ -181,12 +189,12 @@ height: 100%;
 	}
 	background-color:@red;
 	font-size: 20px;
-	color:@pale-grey;
+	color: @pale-grey;
 	.addition {
-		margin-top:20px;
-		margin-bottom:40px;
+		margin-top: 20px;
+		margin-bottom: 40px;
 		text-align:center;
-		font-size:40px;
+		font-size: 40px;
 		font-family:'HVDComicSerifProRegular', sans-serif;
 		img {
 			margin-left:10px;
@@ -206,6 +214,16 @@ height: 100%;
 	li  {
 		margin-bottom:10px;
 	}
+}
+
+#difficulty-container {
+	h2 {
+		.subtitle();
+		color: @slate;
+	}
+	font-size: 20px;
+	color:@pale-grey;
+	background-color: @pale-grey;
 }
 
 #cahier-container {

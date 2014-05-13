@@ -51,5 +51,12 @@
 	"shape-crochet-envers": "un crochet à l'envers",
 	"shape-3": "Trois",
 	"shape-pont-endroit": "un pont à l'endroit",
-	"shape-trait-couche": "un trait couché"
+	"shape-trait-couche": "un trait couché",
+	"difficulty-title": "Difficulté progressive",
+	"6-shapes": "Les formes de bases qui constituent un six",
+	"basic-6": "Six avec aide visuelle",
+	"outlined-6": "Six sans aide visuelle",
+	"6-shapes-caption": "En premier, l'enfant s'entraine sur des formes de bases, afin d'acquérir le bon geste. Ces formes ont des couleurs distinctives qui aident à la mémorisation.",
+	"basic-6-caption": "En second l'enfant enchaine les gestes unitaires pour former un chiffre complet. Les couleurs de fonds des parties de chiffres rapellent celle des formes de bases.",
+	"outlined-6-caption": "Finalement, l'enfant refait le geste acquis sans aucune aide visuelle, en autonomie, le contour du chiffre rapelle la couleur des formes de base."
 }
