@@ -1,6 +1,6 @@
 # Number Serpodile WebSite
 
-should be up at http://serpodile.github.io/number-app-website and http://number.serpodile.com or http://chiffre.serpodile.com
+should be up at http://serpodile.github.io/number-app-website and http://number.serpodile.com
 
 # Install and Run
 
